@@ -12,11 +12,6 @@ multi-ecosystem-groups:
       day: "monday"
       time: "08:00"
 updates:
-  - package-ecosystem: "cargo"
-    directory: "/"
-    patterns:
-      - "*"
-    multi-ecosystem-group: "weekly"
   - package-ecosystem: "github-actions"
     directory: "/"
     patterns:
